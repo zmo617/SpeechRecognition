@@ -14,6 +14,8 @@
 		7DED2FF7248F2BA900154C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DED2FF6248F2BA900154C32 /* Assets.xcassets */; };
 		7DED2FFA248F2BA900154C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DED2FF8248F2BA900154C32 /* LaunchScreen.storyboard */; };
 		7DED3005248F2BA900154C32 /* SpeechRecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DED3004248F2BA900154C32 /* SpeechRecTests.swift */; };
+		7DED3030249062DE00154C32 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DED302F249062DE00154C32 /* RoundButton.swift */; };
+		7DED303224906D6E00154C32 /* SampleMemo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7DED303124906D6E00154C32 /* SampleMemo.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		7DED3000248F2BA900154C32 /* SpeechRecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DED3004248F2BA900154C32 /* SpeechRecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecTests.swift; sourceTree = "<group>"; };
 		7DED3006248F2BA900154C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DED302F249062DE00154C32 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		7DED303124906D6E00154C32 /* SampleMemo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SampleMemo.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		7DED2FE1248F2BA700154C32 = {
 			isa = PBXGroup;
 			children = (
+				7DED303324906D8400154C32 /* Samples */,
 				7DED2FEC248F2BA700154C32 /* SpeechRec */,
 				7DED3003248F2BA900154C32 /* SpeechRecTests */,
 				7DED2FEB248F2BA700154C32 /* Products */,
@@ -86,6 +91,7 @@
 				7DED2FF6248F2BA900154C32 /* Assets.xcassets */,
 				7DED2FF8248F2BA900154C32 /* LaunchScreen.storyboard */,
 				7DED2FFB248F2BA900154C32 /* Info.plist */,
+				7DED302F249062DE00154C32 /* RoundButton.swift */,
 			);
 			path = SpeechRec;
 			sourceTree = "<group>";
@@ -97,6 +103,14 @@
 				7DED3006248F2BA900154C32 /* Info.plist */,
 			);
 			path = SpeechRecTests;
+			sourceTree = "<group>";
+		};
+		7DED303324906D8400154C32 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				7DED303124906D6E00154C32 /* SampleMemo.mp3 */,
+			);
+			path = Samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DED303224906D6E00154C32 /* SampleMemo.mp3 in Resources */,
 				7DED2FFA248F2BA900154C32 /* LaunchScreen.storyboard in Resources */,
 				7DED2FF7248F2BA900154C32 /* Assets.xcassets in Resources */,
 				7DED2FF5248F2BA700154C32 /* Main.storyboard in Resources */,
@@ -200,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DED3030249062DE00154C32 /* RoundButton.swift in Sources */,
 				7DED2FF2248F2BA700154C32 /* ViewController.swift in Sources */,
 				7DED2FEE248F2BA700154C32 /* AppDelegate.swift in Sources */,
 				7DED2FF0248F2BA700154C32 /* SceneDelegate.swift in Sources */,
